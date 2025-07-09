@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+/* Typography */
+
+h1,
+.headline {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 50px;
+  line-height: 70px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #2e3196;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.subheading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #fd5d14;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p,
+.paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #333333;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Button */
+
+/* .btn-custom {
+  background: #2e3196;
+  width: 241px;
+  height: 50px;
+  top: 580px;
+  left: 160px;
+  gap: 10px;
+  opacity: 1;
+  padding-top: 12px;
+  padding-right: 30px;
+  padding-bottom: 12px;
+  padding-left: 30px;
+  border-radius: 0px;
+} */
+
+/* .btn-custom:hover {
+  background: #1f237d;
+} */
+
+/* Layout tweaks */
+
+.section-padding {
+  padding: 80px 0;
 }
 
-.App-link {
-  color: #61dafb;
+/* Utility for background images */
+
+.bg-hero {
+  background: url("C:\Users\manik\Desktop\solid-frontend\public\hero-bg.png")
+    center center/cover no-repeat;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-stats {
+  background-color: #2e3196;
+}
+
+.bg-about {
+  background: url("") center center/cover no-repeat;
+  background-color: #fff;
+}
+
+.bg-services {
+  background: url("C:\Users\manik\Desktop\solid-frontend\public\services-bg.png")
+    center center/cover no-repeat;
+}
+
+.bg-clients {
+  background-color: #f7f7f7;
+}
+
+.bg-products {
+  background-color: #fff;
+  background-image: url("");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-testimonials {
+  background-color: #f4f9fd;
+}
+
+.bg-contact {
+  background: url("C:\Users\manik\Desktop\solid-frontend\public\contact-bg.png")
+    center center/cover no-repeat;
+}
+
+/* Example for white background section */
+
+.bg-white {
+  background-color: #fff;
 }
