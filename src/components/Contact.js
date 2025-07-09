@@ -66,12 +66,7 @@ const Contacts = () => {
       </Container>
 
       <Modal show={showForm} onHide={handleClose} centered>
-        <Modal.Header closeButton>
-          <Modal.Title>Inquiry Form</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <InquiryForm onClose={handleClose} />
-        </Modal.Body>
+        <InquiryForm onClose={handleClose} />
       </Modal>
 
       <style jsx>{`
@@ -107,6 +102,7 @@ const Contacts = () => {
           .contact-btn {
             width: 100%;
             margin-top: 20px;
+            margin-bottom: 40px;
           }
         }
 
