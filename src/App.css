@@ -65,8 +65,7 @@ p,
 /* Utility for background images */
 
 .bg-hero {
-  background: url("C:\Users\manik\Desktop\solid-frontend\public\hero-bg.png")
-    center center/cover no-repeat;
+  background: url("../public/hero-bg.png") center center/cover no-repeat;
 }
 
 .bg-stats {
@@ -79,8 +78,7 @@ p,
 }
 
 .bg-services {
-  background: url("C:\Users\manik\Desktop\solid-frontend\public\services-bg.png")
-    center center/cover no-repeat;
+  background: url("../public/services-bg.png") center center/cover no-repeat;
 }
 
 .bg-clients {
@@ -100,8 +98,7 @@ p,
 }
 
 .bg-contact {
-  background: url("C:\Users\manik\Desktop\solid-frontend\public\contact-bg.png")
-    center center/cover no-repeat;
+  background: url("../public/contact-bg.png") center center/cover no-repeat;
 }
 
 /* Example for white background section */
